@@ -9,7 +9,16 @@
 /* Begin PBXBuildFile section */
 		56C3AD811FF5D35D00A7D1F5 /* MusubiImagePreview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C3AD771FF5D35D00A7D1F5 /* MusubiImagePreview.framework */; };
 		56C3AD861FF5D35D00A7D1F5 /* MusubiImagePreviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AD851FF5D35D00A7D1F5 /* MusubiImagePreviewTests.swift */; };
-		56C3AD881FF5D35D00A7D1F5 /* MusubiImagePreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C3AD7A1FF5D35D00A7D1F5 /* MusubiImagePreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C3AE431FF624BB00A7D1F5 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE361FF624BB00A7D1F5 /* ImagePreviewViewController.swift */; };
+		56C3AE441FF624BB00A7D1F5 /* ImagesPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE371FF624BB00A7D1F5 /* ImagesPreviewController.swift */; };
+		56C3AE451FF624BB00A7D1F5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56C3AE381FF624BB00A7D1F5 /* Info.plist */; };
+		56C3AE461FF624BB00A7D1F5 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE3A1FF624BB00A7D1F5 /* Array+Extension.swift */; };
+		56C3AE471FF624BB00A7D1F5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE3B1FF624BB00A7D1F5 /* UIImage+Extension.swift */; };
+		56C3AE481FF624BB00A7D1F5 /* UIViewSafeAreaLayoutGuide+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE3C1FF624BB00A7D1F5 /* UIViewSafeAreaLayoutGuide+Extension.swift */; };
+		56C3AE491FF624BB00A7D1F5 /* MusubiImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE3E1FF624BB00A7D1F5 /* MusubiImageView.swift */; };
+		56C3AE4A1FF624BB00A7D1F5 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE3F1FF624BB00A7D1F5 /* TopView.swift */; };
+		56C3AE4B1FF624BB00A7D1F5 /* MusubiImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C3AE411FF624BB00A7D1F5 /* MusubiImage.swift */; };
+		56C3AE4C1FF624BB00A7D1F5 /* MusubiImagePreview.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C3AE421FF624BB00A7D1F5 /* MusubiImagePreview.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +33,19 @@
 
 /* Begin PBXFileReference section */
 		56C3AD771FF5D35D00A7D1F5 /* MusubiImagePreview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MusubiImagePreview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56C3AD7A1FF5D35D00A7D1F5 /* MusubiImagePreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusubiImagePreview.h; sourceTree = "<group>"; };
-		56C3AD7B1FF5D35D00A7D1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56C3AD801FF5D35D00A7D1F5 /* MusubiImagePreviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusubiImagePreviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C3AD851FF5D35D00A7D1F5 /* MusubiImagePreviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusubiImagePreviewTests.swift; sourceTree = "<group>"; };
 		56C3AD871FF5D35D00A7D1F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C3AE361FF624BB00A7D1F5 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		56C3AE371FF624BB00A7D1F5 /* ImagesPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesPreviewController.swift; sourceTree = "<group>"; };
+		56C3AE381FF624BB00A7D1F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C3AE3A1FF624BB00A7D1F5 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		56C3AE3B1FF624BB00A7D1F5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		56C3AE3C1FF624BB00A7D1F5 /* UIViewSafeAreaLayoutGuide+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewSafeAreaLayoutGuide+Extension.swift"; sourceTree = "<group>"; };
+		56C3AE3E1FF624BB00A7D1F5 /* MusubiImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusubiImageView.swift; sourceTree = "<group>"; };
+		56C3AE3F1FF624BB00A7D1F5 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		56C3AE411FF624BB00A7D1F5 /* MusubiImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusubiImage.swift; sourceTree = "<group>"; };
+		56C3AE421FF624BB00A7D1F5 /* MusubiImagePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusubiImagePreview.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +70,7 @@
 		56C3AD6D1FF5D35D00A7D1F5 = {
 			isa = PBXGroup;
 			children = (
-				56C3AD791FF5D35D00A7D1F5 /* MusubiImagePreview */,
+				56C3AE151FF6244500A7D1F5 /* MusubiImagePreview */,
 				56C3AD841FF5D35D00A7D1F5 /* MusubiImagePreviewTests */,
 				56C3AD781FF5D35D00A7D1F5 /* Products */,
 			);
@@ -68,15 +85,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56C3AD791FF5D35D00A7D1F5 /* MusubiImagePreview */ = {
-			isa = PBXGroup;
-			children = (
-				56C3AD7A1FF5D35D00A7D1F5 /* MusubiImagePreview.h */,
-				56C3AD7B1FF5D35D00A7D1F5 /* Info.plist */,
-			);
-			path = MusubiImagePreview;
-			sourceTree = "<group>";
-		};
 		56C3AD841FF5D35D00A7D1F5 /* MusubiImagePreviewTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +94,55 @@
 			path = MusubiImagePreviewTests;
 			sourceTree = "<group>";
 		};
+		56C3AE151FF6244500A7D1F5 /* MusubiImagePreview */ = {
+			isa = PBXGroup;
+			children = (
+				56C3AE381FF624BB00A7D1F5 /* Info.plist */,
+				56C3AE421FF624BB00A7D1F5 /* MusubiImagePreview.h */,
+				56C3AE391FF624BB00A7D1F5 /* Common */,
+				56C3AE401FF624BB00A7D1F5 /* Model */,
+				56C3AE3D1FF624BB00A7D1F5 /* View */,
+				56C3AE351FF624BB00A7D1F5 /* ViewController */,
+			);
+			path = MusubiImagePreview;
+			sourceTree = "<group>";
+		};
+		56C3AE351FF624BB00A7D1F5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				56C3AE361FF624BB00A7D1F5 /* ImagePreviewViewController.swift */,
+				56C3AE371FF624BB00A7D1F5 /* ImagesPreviewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		56C3AE391FF624BB00A7D1F5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				56C3AE3A1FF624BB00A7D1F5 /* Array+Extension.swift */,
+				56C3AE3B1FF624BB00A7D1F5 /* UIImage+Extension.swift */,
+				56C3AE3C1FF624BB00A7D1F5 /* UIViewSafeAreaLayoutGuide+Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		56C3AE3D1FF624BB00A7D1F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56C3AE3E1FF624BB00A7D1F5 /* MusubiImageView.swift */,
+				56C3AE3F1FF624BB00A7D1F5 /* TopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		56C3AE401FF624BB00A7D1F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				56C3AE411FF624BB00A7D1F5 /* MusubiImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +150,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C3AD881FF5D35D00A7D1F5 /* MusubiImagePreview.h in Headers */,
+				56C3AE4C1FF624BB00A7D1F5 /* MusubiImagePreview.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +205,7 @@
 				TargetAttributes = {
 					56C3AD761FF5D35D00A7D1F5 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					56C3AD7F1FF5D35D00A7D1F5 = {
@@ -179,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C3AE451FF624BB00A7D1F5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +255,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C3AE4A1FF624BB00A7D1F5 /* TopView.swift in Sources */,
+				56C3AE481FF624BB00A7D1F5 /* UIViewSafeAreaLayoutGuide+Extension.swift in Sources */,
+				56C3AE491FF624BB00A7D1F5 /* MusubiImageView.swift in Sources */,
+				56C3AE461FF624BB00A7D1F5 /* Array+Extension.swift in Sources */,
+				56C3AE4B1FF624BB00A7D1F5 /* MusubiImage.swift in Sources */,
+				56C3AE441FF624BB00A7D1F5 /* ImagesPreviewController.swift in Sources */,
+				56C3AE431FF624BB00A7D1F5 /* ImagePreviewViewController.swift in Sources */,
+				56C3AE471FF624BB00A7D1F5 /* UIImage+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +388,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -334,6 +401,7 @@
 		56C3AD8C1FF5D35D00A7D1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.ha1f.MusubiImagePreview;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +424,7 @@
 		56C3AD8D1FF5D35D00A7D1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +446,7 @@
 		56C3AD8F1FF5D35D00A7D1F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V723YSJ67H;
 				INFOPLIST_FILE = MusubiImagePreviewTests/Info.plist;
@@ -390,6 +461,7 @@
 		56C3AD901FF5D35D00A7D1F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V723YSJ67H;
 				INFOPLIST_FILE = MusubiImagePreviewTests/Info.plist;
