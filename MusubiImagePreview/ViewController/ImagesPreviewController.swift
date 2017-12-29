@@ -147,7 +147,8 @@ public final class ImagesPreviewController: UIPageViewController {
         switch recognizer.state {
         case .began, .changed:
             if translation.y > 0 {
-                view.transform = CGAffineTransform(translationX: 0, y: translation.y)
+                self.view.layer.transform = CATransform3DMakeTranslation(0, translation.y, 0)
+//                view.transform = CGAffineTransform(translationX: 0, y: translation.y)
             }
         case .ended, .failed, .cancelled, .possible:
             if translation.y > view.frame.height / 4 {
@@ -155,7 +156,8 @@ public final class ImagesPreviewController: UIPageViewController {
             } else {
                 // rewind to initial position
                 UIView.animate(withDuration: 0.3) { [weak self] in
-                     self?.view.transform = CGAffineTransform.identity
+                    self?.view.layer.transform = CATransform3DIdentity
+//                     self?.view.transform = CGAffineTransform.identity
                 }
             }
         }
