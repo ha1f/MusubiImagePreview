@@ -13,11 +13,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let button = UIButton(frame: CGRect(origin: .zero, size: CGSize(width: 100, height: 40)))
+        button.backgroundColor = UIColor.orange
+        button.setTitle("show", for: .normal)
+        button.center = view.center
+        button.addTarget(self, action: #selector(self.onButtonTapped), for: .touchUpInside)
+        view.addSubview(button)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    @objc
+    func onButtonTapped() {
         let vc = ImagesPreviewController(transitionStyle: .scroll,
                                          navigationOrientation: .horizontal,
                                          options: nil)
@@ -26,10 +32,9 @@ class ViewController: UIViewController {
                            .url("https://ha1f.net/images/profile/Twitter%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3-Valentine2.png"),
                            .url("https://ha1f.net/images/profile/Twitter%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3-NF.png")]
         vc.currentIndex = 0
-//        vc.modalPresentationStyle = .overCurrentContext
+        vc.modalPresentationStyle = .overCurrentContext
         self.present(vc, animated: true, completion: nil)
     }
-
 
 }
 
